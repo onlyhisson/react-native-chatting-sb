@@ -54,6 +54,7 @@ class Login extends Component {
             label="User ID"
             labelStyle={styles.containerStyle}
             placeholder=""
+            autoCapitalize = 'none'
             onChangeText={value => this._userIdChanged(value)}
           />
         </View>
@@ -62,6 +63,7 @@ class Login extends Component {
             label="Nickname"
             labelStyle={styles.containerStyle}
             placeholder=""
+            autoCapitalize = 'none'
             onChangeText={value => this._nicknameChanged(value)}
           />
         </View>
